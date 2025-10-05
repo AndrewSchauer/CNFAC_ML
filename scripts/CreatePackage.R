@@ -12,3 +12,6 @@ devtools::load_all()
 
 # might need to run this to udate git
 system('git config --global --add safe.directory "E:/CNFAIC/Projects/MachineLearning/Rcode/cnfacML"')
+
+# first push
+system('git push -u origin main')
