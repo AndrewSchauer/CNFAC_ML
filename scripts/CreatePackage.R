@@ -29,8 +29,7 @@ system('git commit -m "Save local edits before pull"')
 
 # 2. Pull remote updates and merge them
 system('git pull --rebase')
-# finish the rebase
-system("git rebase --continue")
+
 
 # push your rebased branch to GitHub
 system("git push -u origin main")
@@ -38,5 +37,8 @@ system("git push -u origin main")
 
 # 3. Push merged version to GitHub
 system('git push -u origin main')
+<<<<<<< HEAD
 
 #online test content
+=======
+>>>>>>> deb5489 (Save local edits before pull)
