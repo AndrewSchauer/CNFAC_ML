@@ -38,5 +38,3 @@ system("git push -u origin main")
 
 # 3. Push merged version to GitHub
 system('git push -u origin main')
-
-###TEST TO SEE IF IT WORKED
