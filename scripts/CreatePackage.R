@@ -22,13 +22,19 @@ system('git branch -M main')
 system('git remote add origin https://github.com/AndrewSchauer/cnfac_ML.git')
 
 
-# Do this to update:
+# Do this to update: ----------------------------------------------------------------------------
 # 1. Save your local changes in a commit
 system('git add -A')
 system('git commit -m "Save local edits before pull"')
 
 # 2. Pull remote updates and merge them
 system('git pull --rebase')
+# finish the rebase
+system("git rebase --continue")
+
+# push your rebased branch to GitHub
+system("git push -u origin main")
+
 
 # 3. Push merged version to GitHub
 system('git push -u origin main')
