@@ -37,8 +37,3 @@ system("git push -u origin main")
 
 # 3. Push merged version to GitHub
 system('git push -u origin main')
-<<<<<<< HEAD
-
-#online test content
-=======
->>>>>>> deb5489 (Save local edits before pull)
