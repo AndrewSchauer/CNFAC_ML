@@ -19,7 +19,7 @@ system('git config --global --add safe.directory "E:/CNFAIC/Projects/MachineLear
 system('git branch -M main')
 
 # add your remote (edit USERNAME + repo)
-system('git remote add origin https://github.com/AndrewSchauer/cnfac_ML.git')
+system('git remote add origin https://github.com/AndrewSchauer/cnfacML.git')
 
 
 # Do this to update: ----------------------------------------------------------------------------
