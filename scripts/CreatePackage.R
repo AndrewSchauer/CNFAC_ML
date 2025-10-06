@@ -1,3 +1,5 @@
+
+
 #Create a package and add functions to the package
 usethis::create_package(".")
 usethis::use_roxygen_md()
@@ -13,5 +15,20 @@ devtools::load_all()
 # might need to run this to udate git
 system('git config --global --add safe.directory "E:/CNFAIC/Projects/MachineLearning/Rcode/cnfacML"')
 
-# first push
+# set main as default (you already did, but harmless to repeat)
+system('git branch -M main')
+
+# add your remote (edit USERNAME + repo)
+system('git remote add origin https://github.com/AndrewSchauer/cnfac_ML.git')
+
+
+# Do this to update:
+# 1. Save your local changes in a commit
+system('git add -A')
+system('git commit -m "Save local edits before pull"')
+
+# 2. Pull remote updates and merge them
+system('git pull --rebase')
+
+# 3. Push merged version to GitHub
 system('git push -u origin main')
