@@ -33,6 +33,7 @@ system('git pull --rebase')
 
 # push your rebased branch to GitHub
 system("git push -u origin main")
+system("git rebase --continue")
 
 
 # 3. Push merged version to GitHub
